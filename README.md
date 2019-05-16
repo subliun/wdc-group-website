@@ -11,3 +11,5 @@ Milestone 1
     Data Plan
     E-R model
 
+Data plan Google Docs:https://docs.google.com/document/d/1TcIjpO7RwQnCOdgn_8GhztM3FShaYf4Eak9pVL3k4pk/edit?usp=sharing
+Feature plan Google Docs:https://docs.google.com/document/d/1kG_x0-DMhCT_sC9_lAvBE2WxN7J0hr2pSX17YjxughI/edit?usp=sharing
