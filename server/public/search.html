@@ -2,44 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Salt & Pepper - Restaurant Booking</title>
+        <title>Results: "[query]"</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="stylesheets/style.css">
-        <link rel="stylesheet" href="stylesheets/style-index.css">
+        <link rel="stylesheet" href="stylesheets/style-search.css">
     </head>
     <body>
         <div id="header">
-            <a href="login.html">Login/Register</a>
+            <a id="logo" href="index.html" title="Home">
+                <img id="logo" src="images/salt-and-pepper.svg" alt="Salt & Pepper">
+                <h3> Salt & Pepper</h3>
+            </a> 
+            <a id="login" href="login.html">Login/Register</a>
+  
         </div>
-        
+
+        <hr>
+
         <div id="main">
-            <img id="logo" src="images/salt-and-pepper.svg" alt="Salt & Pepper">
-            <h1>Salt & Pepper</h1>
+            <h2>Search Results for "[query]:"</h2>
         </div>
 
-        <div id="search">
-            <h2>Reserve a table today</h2>
-            <div id="search-bar">
-                    <select id="time-picker">
-                        <!--filled in javascript-->
-                    </select>
-
-                    <input type="date">
-                    <select name="guest-count">
-                        <option value="1-guest">1 Guest</option>
-                        <option value="2-guests">2 Guests</option>
-                        <option value="3-guests">3 Guests</option>
-                        <option value="4-guests">4 Guests</option>
-                        <option value="5-guests">5 Guests</option>
-                        <option value="6-guests">6 Guests</option>
-                        <option value="7-guests">7 Guests</option>
-                        <option value="8-or-more-guests">8+ Guests</option>
-                    </select> 
-                    <input type="text" placeholder="Search" aria-label="Search"> 
-                    <button type="submit" onclick="onSearch();"><i class="fa fa-search"></i></button>
+        <div id="result">
+            <img id="result-picture" src="images/question_mark.png">
+            <a href="restaurant.html">Restaurant Name</a>
+            <div id="empty-stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
             </div>
-            
+            <div id="filled-stars"></div>
         </div>
 
         <div id="credits">
