@@ -1,3 +1,4 @@
+CREATE DATABASE restaurant_db;
 USE restaurant_db;
 
 CREATE TABLE IF NOT EXISTS restaurants (
